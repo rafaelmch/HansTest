@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "862s7HeV5KjblY7cqvAU1Ol/9l+52itRarmw7WpqV6M=",
+  "Source": "HansAngularWebAPI.Server",
+  "BasePath": "_content/HansAngularWebAPI.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\.Net\\Projects\\HansTest\\HansAngularWebAPI\\hansangularwebapi.client\\hansangularwebapi.client.esproj",
+      "Version": 2,
+      "Source": "hansangularwebapi.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

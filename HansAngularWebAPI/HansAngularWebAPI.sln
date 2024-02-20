@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansAngularWebAPI.Server", "HansAngularWebAPI.Server\HansAngularWebAPI.Server.csproj", "{2FB49253-5AAD-433E-908A-DFB2A693ED07}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "hansangularwebapi.client", "hansangularwebapi.client\hansangularwebapi.client.esproj", "{F656A0F5-99F5-4915-8756-E35013009346}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FB49253-5AAD-433E-908A-DFB2A693ED07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB49253-5AAD-433E-908A-DFB2A693ED07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB49253-5AAD-433E-908A-DFB2A693ED07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB49253-5AAD-433E-908A-DFB2A693ED07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F656A0F5-99F5-4915-8756-E35013009346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F656A0F5-99F5-4915-8756-E35013009346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F656A0F5-99F5-4915-8756-E35013009346}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F656A0F5-99F5-4915-8756-E35013009346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F656A0F5-99F5-4915-8756-E35013009346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F656A0F5-99F5-4915-8756-E35013009346}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAA13AA1-182F-40C3-B9E9-C5B8F21F7A0B}
+	EndGlobalSection
+EndGlobal

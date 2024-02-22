@@ -25,7 +25,4 @@
   <ItemGroup>
     <None Remove="src\app\NovaPasta2\**" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="src\app\Components\" />
-  </ItemGroup>
 </Project>

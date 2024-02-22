@@ -10,13 +10,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<Contexto>(options =>
-{
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DataBase"));
-}
-);
-// Rafael Hassegawa - 21/02/2024
-builder.Services.AddCors();
+// Rafael Hassegawa - 22/02/2024
+// moved to start up file
+//builder.Services.AddCors();
 
 var app = builder.Build();
 
@@ -32,8 +28,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// Rafael Hassegawa - 21/02/2024
-app.UseCors(opcoes => opcoes.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+// Rafael Hassegawa - 22/02/2024
+// moved to start up file
+//app.UseCors(opcoes => opcoes.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
 app.UseAuthorization();
 

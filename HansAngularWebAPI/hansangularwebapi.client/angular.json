@@ -65,6 +65,10 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          // Rafael Hassegawa - 22/02/2024
+          "options": {
+            "port": 4200
+          },
           "configurations": {
             "production": {
               "buildTarget": "hansangularwebapi.client:build:production"

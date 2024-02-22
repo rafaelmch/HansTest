@@ -15,6 +15,8 @@ builder.Services.AddDbContext<Contexto>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DataBase"));
 }
 );
+// Rafael Hassegawa - 21/02/2024
+builder.Services.AddCors();
 
 var app = builder.Build();
 
@@ -29,6 +31,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// Rafael Hassegawa - 21/02/2024
+app.UseCors(opcoes => opcoes.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
 app.UseAuthorization();
 

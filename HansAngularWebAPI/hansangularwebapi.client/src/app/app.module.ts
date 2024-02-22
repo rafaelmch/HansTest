@@ -3,17 +3,24 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+
+//Rafael Hassegawa - 21//02/2024
+import { PessoasServices } from './Pessoas.Services';
+import { CommonModule } from '@angular/common';
+import { ReactiveFormsModule } from '@angular/forms';
+import { ModalModule } from 'ngx-bootstrap/modal';
+//import { PessoasComponentComponent } from './Components/pessoas-component/pessoas-component.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  //declarations: [AppModule],
   imports: [
+    // Rafael Hassegawa - 21/02/2024
+    CommonModule, ReactiveFormsModule, ModalModule.forRoot(),
     BrowserModule, HttpClientModule,
     AppRoutingModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  // Rafael Hassegawa - 21/02/2024 adding my providers
+  providers: [HttpClientModule, PessoasServices],
+  bootstrap: [PessoasServices]
 })
 export class AppModule { }

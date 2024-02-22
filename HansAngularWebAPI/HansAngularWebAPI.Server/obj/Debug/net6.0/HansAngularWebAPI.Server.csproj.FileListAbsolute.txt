@@ -66,3 +66,5 @@ C:\Users\SAMSUNG\Desktop\.Net\Projects\HansTest\HansAngularWebAPI\HansAngularWeb
 C:\Users\SAMSUNG\Desktop\.Net\Projects\HansTest\HansAngularWebAPI\HansAngularWebAPI.Server\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\SAMSUNG\Desktop\.Net\Projects\HansTest\HansAngularWebAPI\HansAngularWebAPI.Server\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\SAMSUNG\Desktop\.Net\Projects\HansTest\HansAngularWebAPI\HansAngularWebAPI.Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\SAMSUNG\Desktop\.Net\Projects\HansTest\HansAngularWebAPI\HansAngularWebAPI.Server\obj\Debug\net6.0\HansAngularWebAPI.Server.sourcelink.json
+C:\Users\SAMSUNG\Desktop\.Net\Projects\HansTest\HansAngularWebAPI\HansAngularWebAPI.Server\bin\Debug\net6.0\HansAngularWebAPI.Server.staticwebassets.runtime.json

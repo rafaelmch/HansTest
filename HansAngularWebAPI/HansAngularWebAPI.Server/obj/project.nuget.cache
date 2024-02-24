@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/Q5XgKbXftiC8Ytf+oh6AujTgII6fCyRRf7WnUgnNUoK8vYnfWz3oU2HUnqkSLukIUX66ZSVv5WsaDjP6pD02Q==",
+  "dgSpecHash": "mz4Ad23RUuI1ha2J1xuXWToMaSrTNWjSDhQJsdaAVPidpwxDvzYm0GgTsn5gGX/x9q9Z1pTRWPWu3ubOtirwiw==",
   "success": true,
   "projectFilePath": "C:\\Users\\SAMSUNG\\Desktop\\.Net\\Projects\\HansTest\\HansAngularWebAPI\\HansAngularWebAPI.Server\\HansAngularWebAPI.Server.csproj",
   "expectedPackageFiles": [
@@ -34,7 +34,9 @@
     "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.8.0\\microsoft.identitymodel.protocols.openidconnect.6.8.0.nupkg.sha512",
     "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.netcore.targets\\5.0.0\\microsoft.netcore.targets.5.0.0.nupkg.sha512",
     "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512",
     "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\SAMSUNG\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

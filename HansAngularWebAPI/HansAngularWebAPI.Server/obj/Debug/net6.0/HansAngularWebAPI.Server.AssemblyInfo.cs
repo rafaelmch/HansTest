@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("c0120319-63c6-4b09-8cdf-b14c7022f4f0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("HansAngularWebAPI.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68c5c7a5e3c78e8821d822fcf1785784cfd7aa3a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb95765a00c9a6c9719337b89d7119291086c122")]
 [assembly: System.Reflection.AssemblyProductAttribute("HansAngularWebAPI.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HansAngularWebAPI.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

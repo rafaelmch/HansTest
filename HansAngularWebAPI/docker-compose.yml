@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  hansangularwebapi.server:
+    image: ${DOCKER_REGISTRY-}hansangularwebapiserver
+    build:
+      context: .
+      dockerfile: HansAngularWebAPI.Server\Dockerfile

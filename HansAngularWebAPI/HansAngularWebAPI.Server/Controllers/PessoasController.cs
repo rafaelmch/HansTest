@@ -28,7 +28,9 @@ namespace HansAngularWebAPI.Server.Controllers
         [HttpGet("{pessoaId}")]
         public async Task<ActionResult<Pessoa>> PegarPessoaPelaIdAsync(int pessoaId)
         {
+#pragma warning disable CS8600 // Conversão de literal nula ou possível valor nulo em tipo não anulável.
             Pessoa pessoa = await _contexto.Pessoas.FindAsync(pessoaId);
+#pragma warning restore CS8600 // Conversão de literal nula ou possível valor nulo em tipo não anulável.
 
             if (pessoa == null)
             {
@@ -57,7 +59,9 @@ namespace HansAngularWebAPI.Server.Controllers
         [HttpDelete("{pessoaId}")] // delete
         public async Task<ActionResult> ExcluirPessoaAsync(int pessoaId)
         {
+#pragma warning disable CS8600 // Conversão de literal nula ou possível valor nulo em tipo não anulável.
             Pessoa pessoa = await _contexto.Pessoas.FindAsync(pessoaId);
+#pragma warning restore CS8600 // Conversão de literal nula ou possível valor nulo em tipo não anulável.
             if (pessoa == null)
             {
                 return NotFound();

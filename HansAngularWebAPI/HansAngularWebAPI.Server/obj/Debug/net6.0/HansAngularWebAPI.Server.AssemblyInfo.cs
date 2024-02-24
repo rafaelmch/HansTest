@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HansAngularWebAPI.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09eda05aa5a65825613579a3eb60cb806a689dcb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+648e98555d33af6d73f3281941401efbd5345475")]
 [assembly: System.Reflection.AssemblyProductAttribute("HansAngularWebAPI.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HansAngularWebAPI.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

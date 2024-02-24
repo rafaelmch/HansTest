@@ -1,5 +1,6 @@
 using HansAngularWebAPI.Server.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,8 +12,13 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Rafael Hassegawa - 22/02/2024
-// moved to start up file
-//builder.Services.AddCors();
+builder.Services.AddDbContext<Contexto>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DataBase"));
+}
+);
+builder.Services.AddCors();
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
@@ -29,8 +35,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 // Rafael Hassegawa - 22/02/2024
-// moved to start up file
-//app.UseCors(opcoes => opcoes.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+app.UseCors(opcoes => opcoes.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
 app.UseAuthorization();
 

@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { PessoasComponent } from './Components/pessoas-component/pessoas.component';
 
 const routes: Routes = [{
-  //Rafael Hassegawa - 22/02/2024
+  //Rafael Hassegawa - 22/04/2024
   path: 'pessoas', component: PessoasComponent
 }];
 
@@ -12,3 +12,4 @@ const routes: Routes = [{
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
